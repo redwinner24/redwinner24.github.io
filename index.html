@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   
   
 </head>
@@ -59,7 +59,7 @@
                     </a>-->
                 </li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#content4-w"><font face="Rajdhani">
                         
-                        What's New</font></a></li><!--<li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#content10-11"><font face="Rajdhani">
+                        Highlights</font></a></li><!--<li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#content10-11"><font face="Rajdhani">
                         
                         Gallery</font></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#instagram-feed-block-17"><font face="Rajdhani">
                         
@@ -98,6 +98,26 @@
 
 <section class="mbr-section content4 cid-rxq07N71Rc" id="content4-w">
 
+<div class="centered">
+            <div class="section-text align-center mbr-white mbr-fonts-style display-2">Google Study Jam</div>
+  </div>
+  <div class="w3-content w3-section" style="max-height:75%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_3.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_4.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_5.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_6.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_7.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_8.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_9.jpg" style="width:100%">
+</div>
+
+</section>
+
+<!--
+<section class="mbr-section content4 cid-rxq07N71Rc" id="content4-w">
+
     
 
     <div class="container">
@@ -110,7 +130,19 @@
         </div>
     </div>
 </section>
+-->
 
+<!--
+<section class="mbr-section content6 cid-rxpVdrnXuv" id="content6-r">
+  <div class="w3-content w3-section" style="max-width:80%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_3.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/images/IMG_4.jpg" style="width:100%">
+</div>
+</section>
+-->
+<!--
 <section class="mbr-section content6 cid-rxpVdrnXuv" id="content6-r">
     
      
@@ -135,6 +167,7 @@ Get official Google training, a $55+ value, free of charge. Together we'll work 
         </div>
     </div>
 </section>
+-->
 
 <!--
 <section class="mbr-section article content10 cid-rxpThMqTwb" id="content10-q">
@@ -280,6 +313,24 @@ Get official Google training, a $55+ value, free of charge. Together we'll work 
 </section>
 
 <section id="null" style="position:fixed;padding-bottom:0;height:5px"></section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
